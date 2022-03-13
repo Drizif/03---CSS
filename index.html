@@ -9,8 +9,9 @@
   <link rel="stylesheet" href="./styles/style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light ">
   <div class="container-fluid">
     <a class="navbar-brand fw-bold" href="#">Vaccination</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -33,7 +34,7 @@
             <h3><a class="nav-link fw-bold" href="#">Regulation</a></h3>
           </li>
           <li class="nav-item nav-btn-container">
-            <a class="nav-link btn btn-primary text-light nav-btn" type="button" href="#">
+            <a class="nav-link btn btn-primary text-light shadow-lg nav-btn" type="button" href="#">
               <h4>Hoax Buster</h4>
             </a>
           </li>
@@ -45,16 +46,151 @@
 
 <body>
   <section>
-    <div class="row">
-      <div class="col">
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-md-6">
+          <div class="card-body-custom m-lg-5">
+            <h1 class="card-title card-title-custom">Fight Virus With Vaccines</h1>
+            <p class="card-text card-text-custom text-muted">Let's stop this pandemic by killing the virus with a
+              vaccine, don't let yourself and your family get infected</p>
+            <br>
+            <div class="icon-text">
+              <div class="row">
+                <div class="col fa-lg f-icon-shield">
+                  <i class="fa fa-shield">
+                    <p class="d-inline-block text-black">Best protection</p>
+                  </i>
+                </div>
+                <div class="col fa-lg f-icon-star">
+                  <i class="fa fa-star">
+                    <p class="d-inline-block text-black">Selected Vaccines</p>
+                  </i>
+                </div>
+              </div>
 
-      </div>
-      <div class="col">
+            </div>
+
+          </div>
+          <!-- Dropwdown -->
+          <div class="btn-group dropdown-btn-container">
+            <button type="button" class="btn btn-primary dropdown-btn" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa fa-clock-o dropdown-icon"></i>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-start dropdown-menu-lg-start">
+              <div class="dropdown-form">
+                <form>
+                  <div class="row">
+                    <div class="col-md-10">
+                      <div class="row">
+                        <div class="col btn-icon-text">
+                          <button type="button" class="btn btn-primary dropdown-btn ">
+                            <i class="fa fa-location-arrow dropdown-icon"></i>
+                          </button>
+                          <h4 class="text-muted">Location</h4>
+                        </div>
+                        <div class="col btn-icon-text">
+                          <button type="button" class="btn btn-primary dropdown-btn ">
+                            <i class="fa fa-calendar dropdown-icon"></i>
+                          </button>
+                          <h4 class="text-muted">Date</h4>
+                        </div>
+                        <div class="col btn-icon-text">
+                          <button type="button" class="btn btn-primary dropdown-btn ">
+                            <i class="fa fa-pencil dropdown-icon"></i>
+                          </button>
+                          <h4 class="text-muted">Vaccine Type</h4>
+                        </div>
+
+                      </div>
+                      <div class="row">
+                        <div class="col dropdown-text">
+                          <h3>Jakarta Utara</h3>
+                        </div>
+                        <div class="col dropdown-text">
+                          <h3>08 July 2021</h3>
+                        </div>
+                        <div class="col dropdown-text">
+                          <h3>Moderna</h3>
+                        </div>
+
+                      </div>
+                    </div>
+                    <div class="col">
+                      <button type="submit" class="btn btn-primary dropdown-btn-sub">
+                        <h4>Submit</h4>
+                      </button>
+                    </div>
+                  </div>
+
+                </form>
+              </div>
+            </ul>
+          </div>
+          <!-- Fin dropwdown -->
+        </div>
+        <div class="col-md-6">
+          <img src="./assets/img/nurse.jpg" class="img-fluid" alt="nurse">
+
+        </div>
 
       </div>
     </div>
   </section>
 
+  <div class="container">
+    <footer class="row row-cols-5 py-5 my-5">
+      <div class="col">
+        <a class="navbar-brand footer-title fw-bold" href="#">Vaccination</a>
+        <p class="m-4">Our goal is to help the world free from the ongoing pandemic</p>
+
+      </div>
+
+
+      <div class="col">
+
+      </div>
+
+      <div class="col">
+        <h5>About</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About Us</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">News & Blog</a></li>
+        </ul>
+      </div>
+
+      <div class="col">
+        <h5>Company</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">How We Work?</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Capital</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Security</a></li>
+        </ul>
+      </div>
+
+      <div class="col">
+        <h5>Support</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Support Center</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact Us</a></li>
+        </ul>
+      </div>
+    </footer>
+    <div class="row">
+      <div class="col-md-8 text-muted">
+        <h5>@2021 Vaccination. All rights reserved</h5>
+      </div>
+      <div class="col text-muted">
+        <h5>Terms & Agreements Privacy Policy</h5>
+      </div>
+    </div>
+    <br>
+    <br>
+  </div>
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </html>
