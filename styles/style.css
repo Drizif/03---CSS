@@ -110,7 +110,23 @@
 }
 
 .vaccine-types-text {
+  color: #e7ebfc;
   font-size: 4rem !important;
-  opacity: 15% !important;
+}
 
+.question-container {
+  padding: 7rem 19rem 7rem 10rem !important;
+}
+
+.question-title {
+  font-size: 4rem !important;
+  font-weight: bolder !important;
+  color: #1f3e72;
+}
+
+.question-paragraph {
+  padding-top: 2.5rem !important;
+  text-align: left;
+  font-size: 1.7rem !important;
+  font-weight: 500 !important;
 }
