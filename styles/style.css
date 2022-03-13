@@ -104,3 +104,13 @@
 .dropdown-btn-sub {
   padding: 1rem 3rem 1rem 3rem !important;
 }
+
+.vaccine-types-container {
+  padding: 7rem 10rem 7rem 10rem !important;
+}
+
+.vaccine-types-text {
+  font-size: 4rem !important;
+  opacity: 15% !important;
+
+}
