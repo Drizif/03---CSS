@@ -136,6 +136,7 @@
   align-items: center;
   padding-left: 10rem !important;
   padding-right: 10rem !important;
+  padding-bottom: 15rem !important;
 }
 
 .card-benefits {
@@ -173,6 +174,60 @@
 
 .card-text {
   text-align: left;
-  font-size: 1.1rem !important;
+  font-size: 1.15rem !important;
+  font-weight: 500 !important;
+}
+
+.preparations-body {
+  padding-left: 5rem !important;
+}
+
+.preparations-title {
+  font-size: 3.5rem !important;
+  font-weight: bolder !important;
+  color: #1f3e72;
+  padding-bottom: 2rem !important;
+}
+
+.preparations-paragraph {
+  padding-right: 14rem !important;
+  font-weight: 500 !important;
+  font-size: 1.5rem !important;
+  padding-bottom: 4rem !important;
+}
+
+.preparations-card {
+  padding-right: 2rem !important;
+  margin-bottom: 3rem !important;
+  border-color: antiquewhite !important;
+  border-radius: 1rem !important;
+  width: 35rem;
+}
+
+.preparations-btn {
+  display: inline-flex;
+}
+
+.preparations-icon-btn {
+  background-color: #e6ecff !important;
+  border-color: #ffffff !important;
+  border-radius: 10%;
+  width: 2.5rem !important;
+  height: 2.5rem !important;
+  margin-right: 1rem !important;
+}
+
+.preparations-icon {
+  color: #3454d2;
+}
+
+.preparations-d-down {
+  width: 32.5rem !important;
+  height: 8rem !important;
+}
+
+.preparations-d-down-p {
+  padding: 0rem 4rem 2rem 4rem !important;
+  text-align: left;
   font-weight: 500 !important;
 }
