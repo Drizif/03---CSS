@@ -231,3 +231,68 @@
   text-align: left;
   font-weight: 500 !important;
 }
+
+.row-contact {
+  padding-top: 13rem !important;
+}
+
+.col-contact {
+  padding-top: 9rem !important;
+  padding-bottom: 9rem !important;
+}
+
+.contact-title {
+  padding-left: 12rem !important;
+  font-size: 3.5rem !important;
+  font-weight: bolder !important;
+  color: #1f3e72;
+  padding-bottom: 2rem !important;
+}
+
+.contact-paragraph {
+  padding-left: 12rem !important;
+  padding-right: 1rem !important;
+  font-weight: 500 !important;
+  font-size: 1.6rem !important;
+  padding-bottom: 4rem !important;
+}
+
+.contact-card {
+  width: 22rem;
+  height: 19rem;
+  margin-left: 12rem !important;
+}
+
+.card-body-contact {
+  padding: 3rem 1rem 1rem 2rem !important;
+}
+
+.card-title-contact {
+  font-size: 1.8rem !important;
+  font-weight: 600;
+}
+
+.card-subtitle-contact {
+  font-size: 1.2rem !important;
+  font-weight: 500;
+}
+
+.container-btn-contact {
+  margin: 3rem 0rem 0rem 0rem !important;
+}
+
+.btn-contact {
+  padding: 1.3rem 5rem 1.3rem 5rem !important;
+  font-size: 1.6rem !important;
+}
+
+.btn-contact-big {
+  padding: 1.3rem 3rem 1.3rem 3rem !important;
+  font-size: 1.6rem !important;
+}
+
+.btn-primary-light {
+  background-color: #f1f5ff !important;
+  color: #3959d7 !important;
+  font-weight: 700 !important;
+}
