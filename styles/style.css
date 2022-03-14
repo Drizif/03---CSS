@@ -66,9 +66,14 @@
 
 /* FOOTER */
 .footer-container {
+  width: 100% !important;
   background-color: #eef3ff;
   padding-left: 9rem !important;
   padding-right: 0rem !important;
+}
+
+.footer-items {
+  margin-left: 10rem !important;
 }
 
 .col-footer-subtitle {
@@ -78,10 +83,18 @@
   padding-bottom: 1.5rem !important;
 }
 
-.col-footer-text {
+.col-footer-paragraph {
   font-size: 1.5rem !important;
   font-weight: 500 !important;
+  padding-right: 35rem !important;
+  padding-top: 1rem !important;
+  padding-left: 1rem;
+}
 
+.col-footer-text {
+  padding-left: 0rem !important;
+  font-size: 1.3rem !important;
+  font-weight: 500 !important;
 }
 
 .footer-title {
