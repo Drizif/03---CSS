@@ -79,6 +79,7 @@
 }
 
 .dropdown-btn-container {
+  padding-top: 13rem !important;
   padding-left: 11rem !important;
 }
 
@@ -115,7 +116,7 @@
 }
 
 .question-container {
-  padding: 7rem 19rem 7rem 10rem !important;
+  padding: 7rem 19rem 4rem 10rem !important;
 }
 
 .question-title {
@@ -128,5 +129,50 @@
   padding-top: 2.5rem !important;
   text-align: left;
   font-size: 1.7rem !important;
+  font-weight: 500 !important;
+}
+
+.row-benefits {
+  align-items: center;
+  padding-left: 10rem !important;
+  padding-right: 10rem !important;
+}
+
+.card-benefits {
+  width: 22.5rem;
+  height: 29rem;
+  border-color: aliceblue !important;
+  border-width: 0.1rem !important;
+  border-radius: 1rem !important;
+  padding: 2.5rem 2rem 1rem 3rem !important;
+}
+
+.card-btn-big {
+  background-color: #e9efff !important;
+  border-color: aliceblue !important;
+  border-radius: 0.5rem !important;
+  border-width: 0.2rem !important;
+  margin-right: 1rem !important;
+  width: 4.5rem !important;
+  height: 4.5rem !important;
+}
+
+.card-icon-big {
+  color: #3454d2;
+  font-size: 2rem !important;
+}
+
+.card-title {
+  padding-top: 1rem !important;
+  color: #1f3e72 !important;
+  font-size: 1.8rem !important;
+  padding-bottom: 1rem !important;
+  padding-right: 1rem !important;
+
+}
+
+.card-text {
+  text-align: left;
+  font-size: 1.1rem !important;
   font-weight: 500 !important;
 }
